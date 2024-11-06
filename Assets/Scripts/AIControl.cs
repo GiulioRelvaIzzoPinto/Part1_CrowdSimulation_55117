@@ -8,14 +8,16 @@ public class AIControl : MonoBehaviour
     public GameObject goal;
     NavMeshAgent agent;
 
+    //This is the start
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
+        agent = this.GetComponent<NavMeshAgent>();
         agent.SetDestination(goal.transform.position);
     }
 
+    //This is the update
     void Update()
     {
 
     }
-}
+} //Here is the end of the code!
