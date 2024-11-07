@@ -327,7 +327,9 @@ MonoBehaviour:
   allFish: []
   swimLimits: {x: 5, y: 5, z: 5}
   minSpeed: 1
-  maxSpeed: 4
+  maxSpeed: 2
+  neighbourDistance: 9
+  rotationSpeed: 4
 --- !u!1 &1260379327
 GameObject:
   m_ObjectHideFlags: 0
